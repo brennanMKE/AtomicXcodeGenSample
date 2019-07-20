@@ -1,0 +1,27 @@
+name: Atomic
+options:
+  bundleIdPrefix: com.acme
+targets:
+  Atomic:
+    type: framework
+    platform: iOS
+    deploymentTarget: "11.0"
+    sources: [Sources/Atomic]
+    info:
+      path: Sources/Atomic/Info.plist
+    configFiles:
+      Debug: Configuration/Debug.xcconfig
+      Release: Configuration/Release.xcconfig
+    scheme:
+      testTargets:
+        - AtomicTests
+      gatherCoverageData: true
+  AtomicTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "11.0"
+    dependencies:
+      - target: Atomic
+    sources: [Sources/AtomicTests]
+    info:
+      path: Sources/AtomicTests/Info.plist

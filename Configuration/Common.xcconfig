@@ -1,0 +1,6 @@
+
+PRODUCT_NAME= Atomic
+PRODUCT_BUNDLE_IDENTIFIER = com.acme.Atomic
+
+MACH_O_TYPE = staticlib
+OTHER_LDFLAGS = -r
