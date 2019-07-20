@@ -20,6 +20,34 @@
                ReferencedContainer = "container:Atomic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D75AF347FC265A2E7EB98D0151D55C80"
+               BuildableName = "AtomicCore.framework"
+               BlueprintName = "AtomicCore"
+               ReferencedContainer = "container:Dependencies/AtomicCore/AtomicCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BD40FD8C8AD1952DFF52F92A5C8ED1E0"
+               BuildableName = "AtomicUI.framework"
+               BlueprintName = "AtomicUI"
+               ReferencedContainer = "container:Dependencies/AtomicUI/AtomicUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,8 +77,6 @@
             ReferencedContainer = "container:Atomic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <CommandLineArguments>
-      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -73,8 +99,6 @@
             ReferencedContainer = "container:Atomic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <CommandLineArguments>
-      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,8 +118,6 @@
             ReferencedContainer = "container:Atomic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
