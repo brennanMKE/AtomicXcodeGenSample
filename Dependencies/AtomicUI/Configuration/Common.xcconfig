@@ -1,0 +1,6 @@
+
+PRODUCT_NAME= AtomicUI
+PRODUCT_BUNDLE_IDENTIFIER = com.acme.AtomicUI
+
+MACH_O_TYPE = staticlib
+OTHER_LDFLAGS = -r

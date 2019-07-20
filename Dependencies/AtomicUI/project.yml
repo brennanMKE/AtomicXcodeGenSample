@@ -1,0 +1,27 @@
+name: AtomicUI
+options:
+  bundleIdPrefix: com.acme
+targets:
+  AtomicUI:
+    type: framework
+    platform: iOS
+    deploymentTarget: "11.0"
+    sources: [Sources/AtomicUI]
+    info:
+      path: Sources/AtomicUI/Info.plist
+    configFiles:
+      Debug: Configuration/Debug.xcconfig
+      Release: Configuration/Release.xcconfig
+    scheme:
+      testTargets:
+        - AtomicUITests
+      gatherCoverageData: true
+  AtomicUITests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "11.0"
+    dependencies:
+      - target: AtomicUI
+    sources: [Sources/AtomicUITests]
+    info:
+      path: Sources/AtomicUITests/Info.plist
