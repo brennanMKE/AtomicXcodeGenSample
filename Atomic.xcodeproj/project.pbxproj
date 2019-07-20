@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5C8F18A420CDD5A3AE67B52C035B68 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3687E4ABCA89B256F243F195127CA /* Atomic.swift */; };
+		2306742825B485B41132C537D584446E /* Atomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594543D877C29334362CAF0A9B7A24B8 /* Atomic.framework */; };
+		8B78BD3970C8DF2B38E7F3CEEE660211 /* Atomic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 594543D877C29334362CAF0A9B7A24B8 /* Atomic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F5FB769E63B02E439E7563CC2B3F9670 /* AtomicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDD2F2952456B2444D40ED8AE0C64B /* AtomicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A93FD6B0613F5B9BFB490B117921319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32220A6BD82A909CF40DA70E4D2B9BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DEC59375970BDA1452CDAB7AFBBED6E;
+			remoteInfo = Atomic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BD2F891EE34C159DB0E01BF2D3DE4AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B78BD3970C8DF2B38E7F3CEEE660211 /* Atomic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16E135CE1535195CAEAD1FDADA0AB13F /* AtomicTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AtomicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3269F0ACD19C8AAF80F0132018AEEFE3 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		58DDD2F2952456B2444D40ED8AE0C64B /* AtomicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicTests.swift; sourceTree = "<group>"; };
+		594543D877C29334362CAF0A9B7A24B8 /* Atomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Atomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03FD8F1507892AD96ED4FCACF21FC57 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		E1D3687E4ABCA89B256F243F195127CA /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB77F4D04C02819A0448BA441E7484B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2306742825B485B41132C537D584446E /* Atomic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076D8FF90BDB00FA1F7319C570D6F644 /* AtomicTests */ = {
+			isa = PBXGroup;
+			children = (
+				58DDD2F2952456B2444D40ED8AE0C64B /* AtomicTests.swift */,
+			);
+			name = AtomicTests;
+			path = Sources/AtomicTests;
+			sourceTree = "<group>";
+		};
+		2DC6FE5B77BE089245FAD17EB5C4CB3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594543D877C29334362CAF0A9B7A24B8 /* Atomic.framework */,
+				16E135CE1535195CAEAD1FDADA0AB13F /* AtomicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CBD3C037B41EA8DCB65EE758C6EDA8 /* Atomic */ = {
+			isa = PBXGroup;
+			children = (
+				E1D3687E4ABCA89B256F243F195127CA /* Atomic.swift */,
+			);
+			name = Atomic;
+			path = Sources/Atomic;
+			sourceTree = "<group>";
+		};
+		7ED53AAEAC35DE8D17065BBB9D254A19 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3269F0ACD19C8AAF80F0132018AEEFE3 /* Debug.xcconfig */,
+				C03FD8F1507892AD96ED4FCACF21FC57 /* Release.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		CC071A7FD9339BBE78D471FA72B1E0DF = {
+			isa = PBXGroup;
+			children = (
+				53CBD3C037B41EA8DCB65EE758C6EDA8 /* Atomic */,
+				076D8FF90BDB00FA1F7319C570D6F644 /* AtomicTests */,
+				7ED53AAEAC35DE8D17065BBB9D254A19 /* Configuration */,
+				2DC6FE5B77BE089245FAD17EB5C4CB3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DEC59375970BDA1452CDAB7AFBBED6E /* Atomic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5699C3CE1C79CEA788AFFB01CDDFD508 /* Build configuration list for PBXNativeTarget "Atomic" */;
+			buildPhases = (
+				DD6E01789BCD5FAA35A2B8C60B5555ED /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atomic;
+			productName = Atomic;
+			productReference = 594543D877C29334362CAF0A9B7A24B8 /* Atomic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72AF957CB4F05790F1D0ED4CEDEAD1C1 /* AtomicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D60B7DC3EEE7D36B0D11DC51B4C6E68 /* Build configuration list for PBXNativeTarget "AtomicTests" */;
+			buildPhases = (
+				32D7734DB09B18FB88823BA1964F8634 /* Sources */,
+				BB77F4D04C02819A0448BA441E7484B5 /* Frameworks */,
+				2BD2F891EE34C159DB0E01BF2D3DE4AF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFCCAD55BFC4EC91CCB867F93E09162 /* PBXTargetDependency */,
+			);
+			name = AtomicTests;
+			productName = AtomicTests;
+			productReference = 16E135CE1535195CAEAD1FDADA0AB13F /* AtomicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32220A6BD82A909CF40DA70E4D2B9BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 5402E0110B8701780ABD958EAC436304 /* Build configuration list for PBXProject "Atomic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC071A7FD9339BBE78D471FA72B1E0DF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DEC59375970BDA1452CDAB7AFBBED6E /* Atomic */,
+				72AF957CB4F05790F1D0ED4CEDEAD1C1 /* AtomicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D7734DB09B18FB88823BA1964F8634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FB769E63B02E439E7563CC2B3F9670 /* AtomicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E01789BCD5FAA35A2B8C60B5555ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5C8F18A420CDD5A3AE67B52C035B68 /* Atomic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFCCAD55BFC4EC91CCB867F93E09162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DEC59375970BDA1452CDAB7AFBBED6E /* Atomic */;
+			targetProxy = 7A93FD6B0613F5B9BFB490B117921319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11F9FA476947DD25FC43891510451AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1280DC93040EC27A832B12065877A443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sources/AtomicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.AtomicTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1632D2FA4F0D24072A03C0073BAB0029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3269F0ACD19C8AAF80F0132018AEEFE3 /* Debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Atomic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		AC7CCD7579AC4768458AA9D2CA11C298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03FD8F1507892AD96ED4FCACF21FC57 /* Release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Atomic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		DFC4F9A83BA90DBA957AB7DF28D947DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91A9DD4D929FB6083599AD2F04DF159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sources/AtomicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.AtomicTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D60B7DC3EEE7D36B0D11DC51B4C6E68 /* Build configuration list for PBXNativeTarget "AtomicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1280DC93040EC27A832B12065877A443 /* Debug */,
+				F91A9DD4D929FB6083599AD2F04DF159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		5402E0110B8701780ABD958EAC436304 /* Build configuration list for PBXProject "Atomic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F9FA476947DD25FC43891510451AF7 /* Debug */,
+				DFC4F9A83BA90DBA957AB7DF28D947DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5699C3CE1C79CEA788AFFB01CDDFD508 /* Build configuration list for PBXNativeTarget "Atomic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1632D2FA4F0D24072A03C0073BAB0029 /* Debug */,
+				AC7CCD7579AC4768458AA9D2CA11C298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32220A6BD82A909CF40DA70E4D2B9BB6 /* Project object */;
+}
