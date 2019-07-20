@@ -42,6 +42,13 @@
 			remoteGlobalIDString = 00A1B615AFD2E33D0D4ED2BFADA801B6;
 			remoteInfo = AtomicUITests;
 		};
+		03A1C0EF22E2ADBF00704F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A1C0D122E2ACE900704F54 /* AtomicCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D75AF347FC265A2E7EB98D0151D55C80;
+			remoteInfo = AtomicCore;
+		};
 		7A93FD6B0613F5B9BFB490B117921319 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 32220A6BD82A909CF40DA70E4D2B9BB6 /* Project object */;
@@ -174,6 +181,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				03A1C0F022E2ADBF00704F54 /* PBXTargetDependency */,
 			);
 			name = Atomic;
 			productName = Atomic;
@@ -284,6 +292,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		03A1C0F022E2ADBF00704F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AtomicCore;
+			targetProxy = 03A1C0EF22E2ADBF00704F54 /* PBXContainerItemProxy */;
+		};
 		7CFCCAD55BFC4EC91CCB867F93E09162 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4DEC59375970BDA1452CDAB7AFBBED6E /* Atomic */;
