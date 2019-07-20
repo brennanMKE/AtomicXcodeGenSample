@@ -28,6 +28,20 @@
 			remoteGlobalIDString = A49656961DB9CD888FCFCBEE4A529CAB;
 			remoteInfo = AtomicCoreTests;
 		};
+		03A1C0EB22E2AD6900704F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A1C0E422E2AD6900704F54 /* AtomicUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64FD6664BD84DDBDDD8A4AB964DD7333;
+			remoteInfo = AtomicUI;
+		};
+		03A1C0ED22E2AD6900704F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A1C0E422E2AD6900704F54 /* AtomicUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00A1B615AFD2E33D0D4ED2BFADA801B6;
+			remoteInfo = AtomicUITests;
+		};
 		7A93FD6B0613F5B9BFB490B117921319 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 32220A6BD82A909CF40DA70E4D2B9BB6 /* Project object */;
@@ -53,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		03A1C0D122E2ACE900704F54 /* AtomicCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AtomicCore.xcodeproj; path = Dependencies/AtomicCore/AtomicCore.xcodeproj; sourceTree = "<group>"; };
+		03A1C0E422E2AD6900704F54 /* AtomicUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AtomicUI.xcodeproj; path = Dependencies/AtomicUI/AtomicUI.xcodeproj; sourceTree = "<group>"; };
 		16E135CE1535195CAEAD1FDADA0AB13F /* AtomicTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AtomicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3269F0ACD19C8AAF80F0132018AEEFE3 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		58DDD2F2952456B2444D40ED8AE0C64B /* AtomicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicTests.swift; sourceTree = "<group>"; };
@@ -77,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				03A1C0D122E2ACE900704F54 /* AtomicCore.xcodeproj */,
+				03A1C0E422E2AD6900704F54 /* AtomicUI.xcodeproj */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -86,6 +102,15 @@
 			children = (
 				03A1C0D722E2ACE900704F54 /* AtomicCore.framework */,
 				03A1C0D922E2ACE900704F54 /* AtomicCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A1C0E522E2AD6900704F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A1C0EC22E2AD6900704F54 /* AtomicUI.framework */,
+				03A1C0EE22E2AD6900704F54 /* AtomicUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +220,10 @@
 					ProductGroup = 03A1C0D222E2ACE900704F54 /* Products */;
 					ProjectRef = 03A1C0D122E2ACE900704F54 /* AtomicCore.xcodeproj */;
 				},
+				{
+					ProductGroup = 03A1C0E522E2AD6900704F54 /* Products */;
+					ProjectRef = 03A1C0E422E2AD6900704F54 /* AtomicUI.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -217,6 +246,20 @@
 			fileType = wrapper.cfbundle;
 			path = AtomicCoreTests.xctest;
 			remoteRef = 03A1C0D822E2ACE900704F54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03A1C0EC22E2AD6900704F54 /* AtomicUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AtomicUI.framework;
+			remoteRef = 03A1C0EB22E2AD6900704F54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03A1C0EE22E2AD6900704F54 /* AtomicUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AtomicUITests.xctest;
+			remoteRef = 03A1C0ED22E2AD6900704F54 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
