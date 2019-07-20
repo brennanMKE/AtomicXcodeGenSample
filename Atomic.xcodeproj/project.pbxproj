@@ -58,6 +58,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A1C0D022E2AC5B00704F54 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
 		076D8FF90BDB00FA1F7319C570D6F644 /* AtomicTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +107,7 @@
 				53CBD3C037B41EA8DCB65EE758C6EDA8 /* Atomic */,
 				076D8FF90BDB00FA1F7319C570D6F644 /* AtomicTests */,
 				7ED53AAEAC35DE8D17065BBB9D254A19 /* Configuration */,
+				03A1C0D022E2AC5B00704F54 /* Dependencies */,
 				2DC6FE5B77BE089245FAD17EB5C4CB3E /* Products */,
 			);
 			sourceTree = "<group>";
